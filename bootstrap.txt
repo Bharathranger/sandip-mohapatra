@@ -1,0 +1,231 @@
+anurag.vishnoi@cognizant.com
+harika.janamanchi@cognizant.com
+padmanaban.g@cognizant.com
+kalyani.bandi@cognizant.com
+bikram.panda@cognizant.com
+Annie Selja _: annie.selja@cognizant.com
+
+Sindhiya P _: sindhiya.p@gognizant.com
+
+Subodh Subhedar _: subodh.subhedar@cognizant.com
+
+What is Bootstrap?
+
+    Bootstrap is a free front-end framework for faster and easier web development
+    Bootstrap includes HTML and CSS based design templates for forms, buttons, tables, navigation, image   and many other, as well as optional JavaScript plugins
+    Bootstrap also gives you the ability to easily create responsive designs.
+
+What is Responsive Web Design?
+
+Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops.
+
+Why Use Bootstrap?
+
+Advantages of Bootstrap:
+
+    Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap
+    Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops
+
+    Mobile-first approach: In Bootstrap 3, mobile-first styles are part of the core framework
+
+    Browser compatibility: Bootstrap is compatible with all modern browsers (Chrome, Firefox, Internet Explorer, Safari, and Opera).
+
+1.container  :-It is used to set the content's margins dealing with the responsive behaviors of your layout.
+the container class is use to create boxed contents.(known as grid system)
+
+
+2.container-fluid :- this class provides a full width container,spanning the entire device.
+
+
+Glyphicon :-
+1)envelope
+2)print,save,search
+
+1)envelope 
+<div class="glyphicon glyphicon-envelope">
+2)search
+<div class="glyphicon glyphicon-search">
+3)print
+<div class="glyphicon glyphicon-print">
+
+
+Bootstrap Buttons
+---------------------------------
+<button class="btn btn-default">default</button>
+
+<button class="btn btn-primary">primary</button>
+
+<button class="btn btn-danger">danger</button>
+
+<button class="btn btn-success">success</button>
+
+<button class="btn btn-info">info</button>
+
+<button class="btn btn-warning">warning</button>
+
+<button class="btn btn-link">Link</button>
+
+-----------------------------------------------------------------------------------------------------------
+table 
+
+classes :-
+1)table
+2)table table-striped
+3)table table-striped table-bordered
+4)table table-hover
+
+<div class="container">
+<table class="table">
+<tr class="success"><td>Enter your name<td><input type=text name=t1 size=20></tr>
+<tr class="active"><td>Enter your name<td><input type=text name=t1 size=20></tr>
+<tr class="danger"><td>Enter your name<td><input type=text name=t1 size=20></tr>
+<tr class="info"><td>Enter your name<td><input type=text name=t1 size=20></tr>
+<tr class="warning"><td>Enter your name<td><input type=text name=t1 size=20></tr>
+</table>
+-----------------------------------------------------------------------------------------------------
+
+form 
+-------------------
+<div class="container">
+<form style="width:300px">
+<div class="form-group">
+----->  always use <form role="form"> 
+----->wrap labels and form controls <div class="form-group">  (it takes the max space)
+----->form-control to all inputs (input types like text,password,number,email,<textarea>,<select>
+
+<div class="container">
+<form style="width:300px">
+
+<div class="form-group">
+<label for="email">Email Id</label>
+<input type="email" class="form-control" placeholder="email" name=t1>
+</div>
+ 
+<div class="form-group">
+<label for="name">Enter your name</label>
+<input type="text" class="form-control" placeholder="enter your name" name=t2>
+</div>
+
+<button type="submit" class="btn btn-default">Login</button>
+
+
+
+--------------------------------------------------------------
+<meta name="viewport" content="width=devive-width, initial-scale=1"> 
+
+-------------------------------------------------------
+Alerts:-
+
+<div class="alert alert-success">
+<div class="alert alert-info">
+<div class="alert alert-warning">
+<div class="alert alert-danger">
+-----------------------------------------------------------
+colors
+---------------------------
+<p class="text-muted">Hello welcome to Bootstrap</p>
+<p class="text-primary">Hello welcome to Bootstrap</p>
+<p class="text-success">Hello welcome to Bootstrap</p>
+<p class="text-info">Hello welcome to Bootstrap</p>
+<p class="text-warning">Hello welcome to Bootstrap</p>
+<p class="text-danger">Hello welcome to Bootstrap</p>
+<p class="text-white">Hello welcome to Bootstrap</p>
+-----------------------------------------------------------------------------------
+dropdown
+----------------------
+<div class="dropdown">
+<ul class="dropdown-menu">
+<li><a href="abc.html">Html Demo</a></li>
+<li><a href="abc.html">Html Demo</a></li>
+<li><a href="abc.html">Html Demo</a></li>
+<li><a href="abc.html">Html Demo</a></li>
+</ul>
+---------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What is Responsive Web Design?
+Responsive Web Design makes your web page look good on all devices (desktops, tablets, and phones).
+
+Responsive Web Design is about using CSS and HTML to resize, hide, shrink, enlarge, or move the content to make it look good on any screen:
+
+Resizing an image using percent width
+Making your video respond to your screen width 
+Resizing an image using media queries 
+Changing your navigation with media queries 
+Making a responsive padding based on size 
+Making a CSS3 button glow for a loading element 
+
+
+<p class="text">Welcome to BootStrap..</p> 
+<div class="img-wrap" >     
+<img alt="robots image" class="responsive" src="robots.jpg" >     
+<p>Hi All...</p> </div> 
+
+-----------------------
+p.text
+ {    
+ float:left;
+     width:60%; 
+} 
+
+--------------------------------------
+div.img-wrap
+{     
+float:right;     
+width:40%; 
+} 
+
+------------------------------------------
+
+img.responsive
+ {  
+   max-width: 100%;   
+  height: auto;
+ }
+
+---------------------------------------------
+<style>
+ video 
+{
+     max-width: 100%;   
+  height: auto; 
+} 
+</style>
+<video width="320" height="240" controls="controls">   
+  <source src="movie.mp4" type="video/mp4"> 
+    <source src="movie.ogg" type="video/ogg">  
+   Your browser does not support the video tag. 
+</video>  
+
+-----------------------------------------------------
